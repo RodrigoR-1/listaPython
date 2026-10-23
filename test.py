@@ -13,11 +13,25 @@ produtos = {
 	3: {"ID": 3, "nome": "Macarrão", "quantidade": 30, "preço": 4.75},
 	4: {"ID": 4, "nome": "Leite", "quantidade": 12, "preço": 5.20},
 	5: {"ID": 5, "nome": "Café", "quantidade": 10, "preço": 18.90},
+	6: {"ID": 6, "nome": "Açúcar", "quantidade": 25, "preço": 4.50},
+	7: {"ID": 7, "nome": "Óleo", "quantidade": 18, "preço": 7.90},
+	8: {"ID": 8, "nome": "Farinha de trigo", "quantidade": 20, "preço": 6.25},
+	9: {"ID": 9, "nome": "Sal", "quantidade": 40, "preço": 2.50},
+	10: {"ID": 10, "nome": "Ovos", "quantidade": 15, "preço": 12.00},
+	11: {"ID": 11, "nome": "Queijo", "quantidade": 8, "preço": 15.90},
+	12: {"ID": 12, "nome": "Manteiga", "quantidade": 10, "preço": 9.75},
+	13: {"ID": 13, "nome": "Sabão", "quantidade": 22, "preço": 3.80},
+	14: {"ID": 14, "nome": "Detergente", "quantidade": 30, "preço": 2.75},
+	15: {"ID": 15, "nome": "Refrigerante", "quantidade": 16, "preço": 8.99},
 }
 
 matriz_produtos = [
-	[produtos[1]["ID"], produtos[2]["ID"], produtos[3]["ID"]],
-	[produtos[4]["ID"], produtos[5]["ID"], 0],
+	[produtos[1]["ID"], produtos[2]["ID"], produtos[3]["ID"], produtos[4]["ID"], produtos[5]["ID"]],
+	[produtos[6]["ID"], produtos[7]["ID"], produtos[8]["ID"], produtos[9]["ID"], produtos[10]["ID"]],
+	[produtos[11]["ID"], produtos[12]["ID"], produtos[13]["ID"], produtos[14]["ID"], produtos[15]["ID"]],
+	[0, 0, 0, 0, 0],
+	[0, 0, 0, 0, 0],
+	[0, 0, 0, 0, 0],
 ]
 
 
@@ -71,4 +85,3 @@ while True:
 		break
 	else:
 		print("Opção inválida. Escolha 1, 2, 3 ou 0.")
-
